@@ -1,0 +1,21 @@
+body{
+    background-image: url('./freepik__expand__69976.png');
+    position: absolute;
+}
+
+
+
+.car{
+ position: relative;
+ top: 441px;
+ animation:car 1s infinite ;
+}
+ @keyframes car{
+    from {
+        left: 300%;
+    }
+    to {
+        left: -100%;
+    }
+ }
+
